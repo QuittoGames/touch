@@ -16,8 +16,6 @@ int main(int argc, char* argv[]) {
         std::cerr << "Erro ao criar o arquivo: " << nameFile << "\n";
         return 0;
     }
-
-    std::cout << "File: " << nameFile << "\n";
-
+    
     return 0;
 }
